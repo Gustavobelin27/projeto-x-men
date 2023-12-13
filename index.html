@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X-Men</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilo.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.svg" alt="logo x-men">
+  </header>
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="Titulo"> Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="Ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los ">
+          <img src="./src/imagens/card-ciclope.jpg" alt="personagem ciclope">
+        </li>
+        <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description=" A telepatia, telecinese e empatia de Jean são drasticamente aumentadas quando em contato com a Fênix, além de poder viajar no vácuo do espaço que vai além da velocidade da luz.">
+          <img src="./src/imagens/card-jean-grey.jpg" alt="personagem Jean grey">
+        </li>
+        <li class="personagem" id="lince-negra" data-name="Lince negra" data-description="ela consegue atravessar objetos sólidos. Basicamente, suas partículas atômicas passam pelo espaço entre os átomos dos objetos pelos quais ela está atravessando. ">
+          <img src="./src/imagens/card-lince-negra.jpg" alt="personagem Lince negra">
+        </li>
+        <li class="personagem" id="Tempestade" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, vento, neblina entre outros efeitos ">
+          <img src="./src/imagens/card-tempestade.jpg" alt="personagem Tempestade">
+        </li>
+        <li class="personagem" id="Vampira" data-name="Vampira" data-description="tem habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele.">
+          <img src="./src/imagens/card-vampira.jpg" alt="personagem Vampira">
+        </li>
+        <li class="personagem" id="Wolverine" data-name="Wolverine" data-description=" Conhecido por seu jeito selvagem e por suas garras afiadas e  pele de adamantium ele tem o poder de se regenerar de ferimentos em tempo recorde. ">
+          <img src="./src/imagens/card-wolverine.jpg" alt="personagem Wolverine">
+        </li>
+        <li class="personagem" id="Noturno" data-name="Noturno" data-description="possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas, e as mãos e os pés aderirem a parede.  ">
+          <img src="./src/imagens/card-noturno.jpg" alt="personagem Noturno">
+        </li>
+        <li class="personagem" id="Magneto" data-name="Magneto" data-description="Ele tem o controle do magnetismo, do metal, e vários campos magnéticos, com isso ele cria campos de força eletromagnéticos.">
+          <img src="./src/imagens/card-magneto.jpg" alt="personagem Magneto">
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionados"><img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+      <div class="infomacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+        <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas ele não pode controlá-lo</p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
